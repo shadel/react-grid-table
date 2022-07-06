@@ -2,7 +2,7 @@
 
 > A modular table, based on a CSS grid layout, optimized for customization.
 
-[![NPM](https://img.shields.io/npm/v/@nadavshaar/react-grid-table.svg)](https://www.npmjs.com/package/@nadavshaar/react-grid-table) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@nadavshaar/react-grid-table.svg)](https://www.npmjs.com/package/@nadavshaar/react-grid-table) [![Downloads](https://img.shields.io/npm/dt/@nadavshaar/react-grid-table)](https://www.npmjs.com/package/@nadavshaar/react-grid-table) 
 
 **Supported features:**
 
@@ -914,7 +914,7 @@ setValue: ({value, data, setRow, column}) => {
 
 ### Styling
 
-Styling is done by css classes that can be easily overridden. the table's components are mapped with pre-defined classes that should cover any situation, and you can add your own custom class per column in the `columns` configuration using the `className` property.
+Styling is done by CSS classes that you can easily override. the table's components are mapped with pre-defined classes that should cover any situation, and you can add your own custom class per column in the `columns` configuration using the `className` property.
 
 | Component | All available class selectors |
 |---|---|
